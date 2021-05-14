@@ -1,8 +1,8 @@
 <template>
   <div class="freelancer-page">
-    <HeaderTwo>
+    <HeaderFive>
       <img slot="logo" src="../../assets/img/logo/rainfo-circle-color.png" />
-    </HeaderTwo>
+    </HeaderFive>
     <SliderOne />
     <!-- Start Portfolio Area -->
     <div class="rn-portfolio-area section-ptb-xl" id="portfolio">
@@ -27,7 +27,7 @@
 </template>
 
 <script>
-  import HeaderTwo from "../../components/header/HeaderTwo";
+  import HeaderFive from "../../components/header/HeaderFive";
   import SliderOne from "../../components/slider/SliderOne";
   import Portfolio from "../../components/portfolio/Portfolio";
   import Awards from "../../components/awards/Awards";
@@ -35,7 +35,7 @@
   import Footer from "../../components/footer/Footer";
   export default {
     components: {
-      HeaderTwo,
+      HeaderFive,
       SliderOne,
       Portfolio,
       Awards,

@@ -106,7 +106,7 @@
         { title: "Portfolio", to: "#portfolio" },
         { title: "Awards", to: "#awards" },
         { title: "News", to: "#blog" },
-        { title: "Contact", to: "#footer" },
+        { title: "Contact", to: "Contact" },
       ],
       icon: "menu",
     }),

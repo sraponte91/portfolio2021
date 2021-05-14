@@ -2,15 +2,15 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import goTo from 'vuetify/es5/services/goto'
 import Missing from '../views/404.vue'
-import Demo from '../views/Demo.vue'
+import MainDemo from '../views/all-home-version/MainDemo'
 
 Vue.use(VueRouter)
 
 const routes = [{
         path: '/',
-        component: Demo,
+        component: MainDemo,
         meta: {
-            title: 'Rainfo || Creative Minimal Portfolio'
+            title: 'Sam Aponte || FrontEnd Developer 2021 Portfolio'
         }
     },
     {

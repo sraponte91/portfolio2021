@@ -47,8 +47,8 @@
           {
             src: require("../../assets/img/slider/slider-1.jpg"),
             info: "Hello!",
-            title: "I’m Ms. Rainfo",
-            desc: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.`,
+            title: "I’m Sam Aponte",
+            desc: `I'm FrontEnd developer focused on reactive technologies :) .`,
             socialIconList: [
               {
                 name: "FB",
