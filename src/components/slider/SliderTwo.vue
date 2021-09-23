@@ -9,7 +9,7 @@
         class="slider--8 fullscreen d-flex align-center justify-center fullscreen bg_image rfanimation-style--1"
         v-for="(slider, i) in sliderContent"
         :key="i"
-        :style="{ backgroundImage: 'url(' + slider.src + ')' }"
+        :style="{ backgroundColor: slider.bgColor }"
       >
         <v-container>
           <v-row>
@@ -43,7 +43,7 @@
       return {
         sliderContent: [
           {
-            src: require("../../assets/img/bg/bg-image-9.jpg"),
+            bgColor:"#EF6645",
             title: "Studio",
             desc: `There are many variations of passages of Lorem Ipsum available 
                   but the majority have suffered alteration.`,
